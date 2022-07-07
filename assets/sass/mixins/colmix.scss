@@ -1,0 +1,25 @@
+@mixin col-6($col-6:45%)
+{
+    width: $col-6;
+}
+@mixin col-2($col-2:calc(100%/6)){
+    width: $col-2;
+}
+@mixin col-4($col-4:calc(100%/3)){
+    width:$col-4;
+}
+@mixin col-3($col-3:calc(100%/4)) {
+    width: $col-3;
+}
+@mixin col-4hewi20($col:29%,$row:20%) {
+    width:$col;
+    height:$row;
+}
+@mixin col-4hewi30($col:29%,$row:25%) {
+    width:$col;
+    height:$row;
+}
+@mixin col-4hewi50($col:29%,$row:33%) {
+    width:$col;
+    height:$row;
+}

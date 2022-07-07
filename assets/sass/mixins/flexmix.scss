@@ -1,0 +1,16 @@
+@mixin flexboxwithjustifyandalign($justify:center,$algin:center) {
+    display: flex;
+    align-items: $algin;
+    justify-content: $justify;    
+}
+@mixin flexboxwithjustify($justify:center) {
+    display: flex;
+    justify-content: $justify;    
+}
+@mixin flexboxwithalign($algin:center) {
+    display: flex;
+    align-items: $algin;   
+}
+@mixin onlyflex {
+    display: flex;
+}

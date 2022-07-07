@@ -1,0 +1,55 @@
+.footerpart{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: $clr-footer;
+    @include flexboxwithjustifyandalign;
+    flex-direction:column;
+    z-index: -89;
+    top: 400%; 
+}
+.colorofli{
+    color: $clr-footelemet;
+}
+.containeroffoot{
+    position: absolute;
+    @include flexboxwithjustifyandalign;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    z-index:546;
+
+    gap:10%;
+}
+.containeroficonsandwords{
+    position: relative;
+    @include flexboxwithalign;
+    flex-direction:column;   
+    width:20%;
+    height:90%;
+}
+.listsoffooter{
+    position: relative;
+    @include flexboxwithjustify;
+    width: 75%;
+    height:90%;
+    gap:8%;
+}
+.h2offooter{
+    font-size:18px;
+    color:$clr-footelemet;
+}
+.containeroficonfoot{
+    width:100%;
+    @include flexboxwithjustifyandalign;
+    flex-direction: row;
+    font-size:40px;
+    i{
+        color:$clr-footelemet ;
+    }
+}
+.paraoffooter{
+    font-size:15px;
+    font-weight: 300;
+    color:$clr-footelemet ;
+}

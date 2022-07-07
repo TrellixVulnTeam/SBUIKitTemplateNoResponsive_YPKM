@@ -1,0 +1,45 @@
+.about{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color:$aboutsec-color;
+    top: 87%;
+    z-index: -3;
+}
+.iconcontainer{
+    @include flexboxwithjustifyandalign;
+    flex-direction: row;
+    width:93%;
+    height: 50vh;
+    gap: 7%;
+}
+.iconcont{
+    flex-direction: column;
+    @include flexboxwithjustifyandalign;
+    @include col-3;
+}
+.icon{
+     font-size:80px;
+     color:#2440e4 ;
+}
+.iconpara{
+    position: relative;
+    font-size:20px;
+    color: #989894;
+}
+.iconwords{
+    @include flexboxwithjustifyandalign;
+    flex-direction: column;
+}
+.clr-red{
+    color: $clr-redforabout !important;
+}
+.clr-orange{
+    color: $clr-orangeforabout;
+}
+.clr-blue{
+    color:$clr-blueforabout;
+}
